@@ -1,0 +1,23 @@
+"""
+This program :
+    1. Read a MCNPX output and calculate its variables.
+
+    2. Write 2 text files, containing:
+        a. Tallies, with the following outputs:
+            - Conversion ratio*, **
+            - Fission rate of U-235
+            - Absorption rate of Th-232
+            - Neutron spectrum (energy vs flux)
+                *the conversion ratio is an approximation
+                **uncompleted
+        b. keff and its standard deviation
+        
+    3. Plot multiples graphs:
+        a. keff
+        b. conversion ratio
+        c. flux (tally)
+        d. cross section
+
+@author: phitonthel 
+thephitonthel@gmail.com
+"""
